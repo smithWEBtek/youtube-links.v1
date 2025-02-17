@@ -1,0 +1,20 @@
+{
+  "name": "youtube-links-v1",
+  "version": "1.0.0",
+  "description": "YOUTUBE_API_KEY=AIzaSyCBOiWRYpaWnVPrUEIlfFUeyMK4MQdYFmo",
+  "main": "fetchYouTubeLinks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "fast-csv": "^5.0.2",
+    "fs": "^0.0.1-security",
+    "music-metadata": "^10.9.0",
+    "path": "^0.12.7"
+  }
+}
