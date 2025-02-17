@@ -7,7 +7,7 @@ const csv = require('fast-csv');
 
 const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
 
-const INPUT_CSV = 'songs-rock.csv'; // Ensure columns: "song title", "artist"
+const INPUT_CSV = 'songs.csv'; // Ensure columns: "song title", "artist"
 const OUTPUT_CSV = 'songs_with_links.csv';
 
 async function getYouTubeLink(song, artist) {
