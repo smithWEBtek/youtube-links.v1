@@ -11,10 +11,10 @@ fs.createReadStream(csvFilePath)
   .pipe(csv({ headers: ['artist', 'title'], skipLines: 1 }))
   .on('data', (row) => {
     // search for song by title artist and 'pdf sheet music'
-    // const query = `${row.title} ${row.artist} pdf sheet music`.replace(/ /g, '+');
+    const query = `${row.title} ${row.artist} pdf`.replace(/ /g, '+');
 
     // searcyh for songbook for this artist
-    const query = `${row.artist} pdf songbook`.replace(/ /g, '+');
+    // const query = `${row.artist} pdf songbook`.replace(/ /g, '+');
 
     const searchUrl = `${searchBaseUrl}${query}`;
     urls.push(searchUrl);

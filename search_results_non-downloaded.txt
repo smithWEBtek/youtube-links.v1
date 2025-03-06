@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Stacy's Mom",
+    "artist": "Fountains of Wayne",
+    "url": "https://duckduckgo.com/?q=stacy%27s%20mom%20release%20date"
+  },
+  {
+    "title": "Faith",
+    "artist": "George Michael",
+    "url": "https://duckduckgo.com/?q=george%20michael%20faith%20release%20date"
+  }
+]

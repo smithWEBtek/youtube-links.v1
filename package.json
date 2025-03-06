@@ -14,9 +14,12 @@
     "dotenv": "^16.4.7",
     "fast-csv": "^5.0.2",
     "fs": "^0.0.1-security",
+    "fs-extra": "^11.3.0",
     "music-metadata": "^10.9.0",
     "open": "^10.1.0",
     "path": "^0.12.7",
-    "puppeteer": "^24.2.1"
+    "puppeteer": "^24.2.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }
